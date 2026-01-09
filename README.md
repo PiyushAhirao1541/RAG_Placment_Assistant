@@ -1,4 +1,4 @@
-# RAG Placement Assistant 🎓🤖
+# RAG Placement Assistant 🤖
 
 A Retrieval-Augmented Generation (RAG) based AI assistant that helps students prepare for placement interviews using interview preparation PDFs.
 
@@ -34,3 +34,14 @@ A Retrieval-Augmented Generation (RAG) based AI assistant that helps students pr
 ---
 
 ## 📁 Project Structure
+
+RAG_Placment_Assistant/
+├── data/
+│ └── pdfs/ # Interview PDFs
+├── embeddings/ # FAISS vector store
+├── ingest.py # PDF ingestion & embedding creation
+├── rag_pipeline.py # RAG pipeline logic
+├── test_rag.py # Test RAG via terminal
+├── app.py # Streamlit web app
+├── requirements.txt
+└── README.md
